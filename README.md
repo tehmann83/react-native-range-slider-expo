@@ -1,3 +1,6 @@
+
+readme
+
 # react-native-range-slider-expo
 ![Supports Android and iOS](https://img.shields.io/badge/platforms-android%20|%20ios-blue.svg) &nbsp;&nbsp;
 ![MIT License](https://img.shields.io/npm/l/react-native-range-slider-expo?color=red)
