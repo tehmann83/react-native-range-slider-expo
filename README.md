@@ -6,48 +6,6 @@ readme
 ![MIT License](https://img.shields.io/npm/l/react-native-range-slider-expo?color=red)
 ### Customizable range slider for react native apps
 <br/><br/>
-## Getting started
-`npm i react-native-range-slider-expo`
-
-<br/><br/>
-## Usage
-#### Examples - code (reflects the short video above)
-
-```javascript
-import RangeSlider, { Slider } from 'react-native-range-slider-expo';
-```
-```javascript
-     const [fromValue, setFromValue] = useState(0);
-     const [toValue, setToValue] = useState(0);
-     const [value, setValue] = useState(0);
-     return (
-          <View style={styles.container}>
-               <View>
-                    <RangeSlider min={5} max={25}
-                         fromValueOnChange={value => setFromValue(value)}
-                         toValueOnChange={value => setToValue(value)}
-                         initialFromValue={11}
-                    />
-                    <Text>from value:  {fromValue}</Text>
-                    <Text>to value:  {toValue}</Text>
-               </View>
-               <View>
-                    <Slider min={0} max={40} step={4}
-                         valueOnChange={value => setValue(value)}
-                         initialValue={12}
-                         knobColor='red'
-                         valueLabelsBackgroundColor='black'
-                         inRangeBarColor='purple'
-                         outOfRangeBarColor='orange'
-                    />
-                    <Text>value:  {value}</Text>
-               </View>
-          </View>
-     );
-```
-
-<br/>
-
 ## API - RangeSlider (default import)
 | Property | Type | Required | Default |
 | :---     |:----:|  :-----: | :-----: | 
